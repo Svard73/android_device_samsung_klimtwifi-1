@@ -55,7 +55,7 @@
 #define PCM_DEVICE 0
 #define PCM_DEVICE_VOICE 1
 #define PCM_DEVICE_SCO 2
-#define PCM_DEVICE_IN 0
+#define PCM_DEVICE_IN 3
 
 #define MIXER_CARD 0
 
@@ -1746,3 +1746,4 @@ struct audio_module HAL_MODULE_INFO_SYM = {
         .methods = &hal_module_methods,
     },
 };
+
